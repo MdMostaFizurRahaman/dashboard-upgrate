@@ -3049,13 +3049,29 @@ span.label {
 .menu-items {
   justify-content: flex-end !important;
 }
-.menu-items .magnify {
-  width: 0 !important;
+/* .menu-items .magnify {
+  background: #212121;
   transition: 0.8s;
 }
 .menu-items .magnify.active {
+  background: #cecece;
   width: 40rem !important;
 }
+.menu-items .magnify .searchSwitch {
+  left:unset; 
+  transition: left 0s ease, right .3s ; color:#cecece;
+}
+.menu-items .magnify.active .searchSwitch {
+  left:22px; 
+  color:#212121;
+}
+.menu-items .magnify .input {
+  opacity: 0; 
+}
+.menu-items .magnify.active .input {
+  opacity: 1; 
+  color:#212121;
+} */
 .menu-items .rounder {
   margin-left: 40px;
   transition: background 0.8s linear;
