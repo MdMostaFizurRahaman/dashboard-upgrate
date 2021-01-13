@@ -1,0 +1,852 @@
+.menu-items .magnify {
+    max-width: 400px;
+    height: 40px;
+    -webkit-transition: background 0.3s, width 0.3s;
+    -o-transition: background 0.3s, width 0.3s;
+    transition: background 0.3s, width 0.3s;
+    width: 70px !important;
+    padding: 0;
+  }
+  .menu-items .magnify.active {
+    background: #cecece !important;
+    border-radius: 100px;
+    width: 33% !important;
+  }
+  @media (max-width: 1200px) {
+    .menu-items .magnify {
+      width: 60px !important;
+    }
+  }
+  @media (min-width: 1441px) {
+    .menu-items .magnify {
+      height: 60px;
+    }
+  
+    .menu-items .magnify.active {
+      width: 40% !important;
+    }
+  }
+  .menu-items .magnify input {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100% !important;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: light;
+    height: 46px;
+    background: transparent !important;
+    color: rgba(33, 33, 33, 0.5);
+    padding: 10px 22px 10px 60px;
+    max-width: 100%;
+  }
+  .menu-items .magnify input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: rgba(33, 33, 33, 0.5);
+    font-size: inherit;
+  }
+  .menu-items .magnify input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: rgba(33, 33, 33, 0.5);
+    font-size: inherit;
+  }
+  .menu-items .magnify input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: rgba(33, 33, 33, 0.5);
+    font-size: inherit;
+    opacity: 1;
+  }
+  .menu-items .magnify input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: rgba(33, 33, 33, 0.5);
+    font-size: inherit;
+  }
+  @media (min-width: 1441px) {
+    .menu-items .magnify input {
+      height: 60px;
+      padding: 17px 30px 17px 70px;
+      font-size: 20px;
+    }
+  }
+  .menu-items .magnify .searchSwitch {
+    position: absolute;
+    z-index: 2;
+    // left: 25px;
+  }
+  .menu-items .magnify .searchSwitch.hidden {
+    opacity: 0 !important;
+  }
+  
+  @media (max-width: 1440px) {
+    .nav-menu {
+      height: 7rem !important;
+    }
+  }
+  
+  .card {
+    width: 31.25%;
+    padding: 11rem 5rem 2.5rem;
+  }
+  @media (max-width: 1280px) {
+    .card {
+      width: 40%;
+    }
+  }
+  .card p:before {
+    margin: 0 10px 0 0;
+  }
+  .card p:after {
+    margin: 0 0 0 10px;
+  }
+  
+  .navigation img {
+    margin: 0 0 0 20px;
+  }
+  .navigation img.goBack {
+    margin: 0 0 0 -14px;
+  }
+  
+  .progress-border.cash,
+  .progress-border.tplan,
+  .progress-border.legal,
+  .progress-border.inc,
+  .progress-border.restate,
+  .progress-border.invest,
+  .progress-border.firstCrd {
+    margin: 32px auto 25px;
+  }
+  
+  .progress-statement,
+  .progress-report,
+  .progress-other {
+    font-weight: bold;
+  }
+  
+  .legal-planning,
+  .tax-planning,
+  .firstCrd-planning {
+    font-size: 22px;
+    margin: 0 23px 25px;
+  }
+  
+  .tax-text,
+  .firstCrd-text {
+    margin: 2px 0;
+  }
+  
+  .composer {
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+  }
+  
+  .menu-items .r4.lst {
+    margin-left: 48px;
+    margin-right: 50px;
+  }
+  
+  .menu-items .rounder {
+    margin-left: 34px;
+  }
+  
+  .card.upload .upload-bar {
+    margin: 20px 0 30px;
+  }
+  .card.upload .upload-text {
+    margin: -6px 0 6px;
+  }
+  .card.upload .upload-field img {
+    width: 80px;
+    margin: 30px 0 9px;
+  }
+  .card.upload .upload-field {
+    margin-top: 18.6vh;
+  }
+  .card.upload .browse-span {
+    margin: -5px 0 18px;
+  }
+  .card.upload .upload-button {
+    padding: 12px 20px;
+    height: auto;
+    min-width: 200px;
+    font-size: 25px;
+  }
+  .card span.span-desc {
+    margin: -6px 0 0;
+    color: rgba(206, 206, 206, 0.5);
+    display: block;
+  }
+  
+  .notificationHolder {
+    margin: 16px 0;
+  }
+  
+  .notificationTopic {
+    margin-top: 4px;
+  }
+  
+  .chatNow-days,
+  .notificationTopic {
+    color: rgba(206, 206, 206, 0.5);
+    font-size: 17px;
+  }
+  
+  .chatNow-circle span {
+    top: 3px;
+    font-size: 15px;
+  }
+  
+  .report-img {
+    width: 67px;
+    padding: 0 0 12px;
+  }
+  .report-img img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .advisors {
+    margin: 1.7vh 0 8.1vh;
+  }
+  
+  .txIne {
+    max-height: 21px;
+  }
+  
+  .profile {
+    margin: 25px 0;
+  }
+  
+  .about {
+    margin-top: 52px;
+    line-height: 1.4;
+  }
+  
+  .pResidence,
+  .pContact {
+    margin: 0 0 26px;
+  }
+  
+  .buttons {
+    margin: 0 0 24px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .buttons .edit,
+  .buttons a {
+    margin: 0 25px;
+  }
+  
+  .dropdown-content {
+    padding-bottom: 10px;
+  }
+  
+  @media (max-width: 1440px) {
+    .rounder.r1 img.topIcon,
+    .rounder.r2 img.topIcon,
+    .searchSwitch {
+      width: 25px !important;
+    }
+  
+    .rounder.r3 img {
+      width: 40px !important;
+    }
+  
+    .r4 img.topIcon {
+      width: 40px !important;
+    }
+  
+    .menu-items .rounder {
+      margin-left: 20px !important;
+      padding: 0 !important;
+      width: 50px;
+      height: 50px;
+    }
+  
+    .menu-items .r4.lst {
+      margin-left: 20px;
+    }
+  
+    .r4.lst img {
+      margin-top: -1px;
+    }
+  }
+  @media (min-width: 768px) and (max-height: 1079px) {
+    .mailSpan.green_mail {
+      position: relative;
+    }
+    .mailSpan.green_mail img {
+      top: 50% !important;
+      left: 50% !important;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  
+    .card.upload .upload-field {
+      margin-top: 13.6vh;
+    }
+  
+    .card p,
+    .message.receiver,
+    .chatHead span,
+    .message.sender,
+    .chatSend input.input,
+    .settingsSecurity button,
+    .upload-btn,
+    .chat.g span,
+    .report-span1,
+    .chatNow-name,
+    .upload-button,
+    .card .phone,
+    .sliderticks p,
+    .card span.span-desc,
+    .settingsSecurity .row input,
+    .progressTwo span,
+    span.span-desc.c,
+    .checks label,
+    .upload-text,
+    .data textarea,
+    .settings-name,
+    .send-report,
+    .assumbtion-bar,
+    .first-header,
+    .upload-field span,
+    .settings-check-container,
+    .section span,
+    .tab button,
+    span.label,
+    .data input,
+    .personalityTest span,
+    .pResidence span,
+    .pContact span,
+    .pResidence span,
+    .pContact span .card span.span-desc,
+    .buttons button,
+    .buttons a,
+    .main,
+    .tool-free,
+    .mail span,
+    .text span,
+    .chat,
+    .notificationName,
+    .bar.firstCrd,
+    .firstCrd-planning,
+    .bar.cash,
+    .bar.invest,
+    .bar.restate,
+    .bar.inc,
+    .bar.legal,
+    .bar.tplan,
+    .tax-planning,
+    .legal-planning,
+    .dropdown-container.cash,
+    .dropdown-container.invest,
+    .dropdown-container.restate,
+    .dropdown-container.inc,
+    .dropdown-container.legal,
+    .dropdown-container.tplan,
+    .personalityTest span,
+    button,
+    .act,
+    .buttonGroup2 span,
+    .buttonGroup2 span,
+    table,
+    .authentication span.label,
+    .settings-submit {
+      font-size: 18px !important;
+    }
+  
+    .name,
+    span.head,
+    .progress span,
+    .progress.setProf span:nth-child(1),
+    .authentication span,
+    .bottom span,
+    .settingsSecurity span.head {
+      font-size: 2.5rem !important;
+    }
+  
+    .upload-button {
+      margin: 0 auto;
+    }
+  }
+  @media (min-width: 768px) and (max-height: 1023px) {
+    .card {
+      padding: 6rem 2.5rem 1.5rem;
+    }
+    .card.upload .upload-field {
+      margin-top: 9vh;
+    }
+    .card.upload .upload-field img {
+      width: 60px;
+      margin: 20px 0;
+    }
+    .card.upload .browse-span {
+      margin: -5px 0 10px;
+    }
+    .card.upload .upload-bar {
+      margin: 10px 0;
+    }
+    .card .report {
+      height: 90px;
+    }
+  
+    .navigation {
+      top: 15px;
+    }
+    .navigation img.goBack,
+    .navigation img.goBack1 {
+      margin: 0;
+      width: 10px;
+    }
+  
+    .chat img {
+      width: 70px;
+    }
+  
+    .mail .mailSpan,
+    .generalInquiries img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .mail .mailSpan img {
+      width: 24px !important;
+      height: auto !important;
+      margin: 0 !important;
+    }
+  
+    .legal-planning,
+    .tax-planning,
+    .firstCrd-planning {
+      font-size: 18px;
+    }
+  
+    .composer {
+      width: 60px;
+    }
+  
+    .advisors {
+      margin: 1vh 0 5vh;
+    }
+  
+    .phone .avatar {
+      width: 10rem;
+      height: 10rem;
+    }
+  
+    .generalInquiries.a .mail img:nth-child(1) {
+      left: 64px;
+    }
+  
+    .dropdown-item {
+      font-size: 14px;
+    }
+  
+    .a {
+      padding: 0;
+    }
+  
+    .buttons .edit,
+    .buttons a {
+      margin: 0 10px;
+    }
+  }
+  
+  @media (min-width: 1024px) and (max-height: 1023px) {
+    .card {
+      padding: 6rem 3.5rem 1.5rem;
+    }
+  }
+  .maximizeChat {
+    width: 100%;
+  }
+  
+  @media (max-width: 1280px) {
+    .maximizeChat {
+      width: calc(100vw - 110px);
+    }
+  }
+  @media (max-height: 865px) {
+    .maximizeChat {
+      width: calc(100% - 110px);
+    }
+  }
+  @media (max-height: 767px) {
+    .maximizeChat {
+      width: calc(100% - 100px);
+    }
+  }
+  .maximizedAdvisors.card {
+    border-radius: 0;
+  }
+  
+  @media (min-width: 1441px) and (max-height: 767px) {
+    p.z {
+      margin: 10px 0;
+    }
+  
+    .report {
+      height: 60px !important;
+    }
+    .report img.report-svg {
+      width: 30px;
+    }
+  
+    .card .phone,
+    .mail,
+    .address {
+      margin: 8px 0;
+    }
+  
+    .chat img {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+  
+    .about {
+      margin-top: 20px;
+    }
+  
+    .pResidence,
+    .pContact {
+      margin: 0 0 15px;
+    }
+  
+    .buttons a {
+      height: 50px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-height: 767px) {
+    .card p,
+    .message.receiver,
+    .chatHead span,
+    .message.sender,
+    .chatSend input.input,
+    .settingsSecurity button,
+    .upload-btn,
+    .chat.g span,
+    .report-span1,
+    .chatNow-name,
+    .upload-button,
+    .card .phone,
+    .sliderticks p,
+    .card span.span-desc,
+    .settingsSecurity .row input,
+    .progressTwo span,
+    span.span-desc.c,
+    .checks label,
+    .upload-text,
+    .data textarea,
+    .settings-name,
+    .send-report,
+    .assumbtion-bar,
+    .first-header,
+    .upload-field span,
+    .settings-check-container,
+    .section span,
+    .tab button,
+    span.label,
+    .data input,
+    .personalityTest span,
+    .pResidence span,
+    .pContact span,
+    .pResidence span,
+    .pContact span .card span.span-desc,
+    .buttons button,
+    .buttons a,
+    .main,
+    .tool-free,
+    .mail span,
+    .text span,
+    .chat,
+    .notificationName,
+    .bar.firstCrd,
+    .firstCrd-planning,
+    .bar.cash,
+    .bar.invest,
+    .bar.restate,
+    .bar.inc,
+    .bar.legal,
+    .bar.tplan,
+    .tax-planning,
+    .legal-planning,
+    .dropdown-container.cash,
+    .dropdown-container.invest,
+    .dropdown-container.restate,
+    .dropdown-container.inc,
+    .dropdown-container.legal,
+    .dropdown-container.tplan,
+    .personalityTest span,
+    button,
+    .act,
+    .buttonGroup2 span,
+    .buttonGroup2 span,
+    table,
+    .authentication span.label,
+    .settings-submit {
+      font-size: 14px !important;
+    }
+  
+    .name,
+    span.head,
+    .progress span,
+    .progress.setProf span:nth-child(1),
+    .authentication span,
+    .bottom span,
+    .settingsSecurity span.head {
+      font-size: 20px !important;
+    }
+  
+    .dashboard-background {
+      width: 40px;
+      height: 40px;
+    }
+    .dashboard-background img {
+      max-width: 60%;
+    }
+  
+    .maximize,
+    .card .exit,
+    .navigation .close {
+      width: 18px;
+      height: 18px;
+    }
+    .maximize img {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    .navigation .goBack {
+      width: 10px;
+    }
+  
+    .dropdown-container.tplan,
+    .dropdown-container.legal,
+    .dropdown-container.inc,
+    .dropdown-container.restate,
+    .dropdown-container.invest,
+    .dropdown-container.cash,
+    .progress-border.tplan,
+    .progress-border.legal,
+    .progress-border.inc,
+    .progress-border.restate,
+    .progress-border.invest,
+    .progress-border.cash,
+    .upload-bar,
+    .progress-border.firstCrd {
+      height: 30px;
+    }
+  
+    .progress-border.cash,
+    .progress-border.tplan,
+    .progress-border.legal,
+    .progress-border.inc,
+    .progress-border.restate,
+    .progress-border.invest,
+    .progress-border.firstCrd {
+      margin: 15px auto;
+    }
+  
+    .composer {
+      width: 50px;
+    }
+  
+    .card .report {
+      height: 65px;
+    }
+  
+    .report-img {
+      padding: 0;
+      width: 44px;
+    }
+  
+    .report-span2 {
+      margin-top: 5px;
+    }
+  
+    .span1 {
+      flex-wrap: wrap;
+    }
+  
+    .report-span1 {
+      width: calc(100% - 44px);
+      display: block;
+      margin: 5px 0 0;
+    }
+  
+    .report-span2 {
+      font-size: 12px;
+    }
+  
+    .card.upload .upload-field img {
+      width: 40px;
+      margin: 10px 0;
+    }
+  
+    .upload-field {
+      margin: 9vh 0 20px;
+    }
+  
+    .card.upload .upload-button {
+      padding: 8px 20px;
+      min-width: 170px;
+    }
+  
+    .chatNow-days,
+    .notificationTopic {
+      font-size: 11px;
+    }
+  
+    .chatNow-circle {
+      width: 20px;
+      height: 20px;
+      top: 7px;
+    }
+    .chatNow-circle span {
+      font-size: 12px;
+      top: 1px;
+      left: 7px;
+    }
+  
+    .notificationHolder {
+      margin: 10px 0;
+    }
+  
+    .notification {
+      margin-top: 0;
+      padding: 5px 2rem;
+    }
+  
+    .advisors {
+      height: auto;
+      margin: 0;
+    }
+  
+    .advisors.owl-carousel .owl-item img {
+      width: 5rem !important;
+      height: 5rem !important;
+    }
+  
+    .owl-stage {
+      padding: 10px 0;
+    }
+  
+    .owl-nav button {
+      top: 50%;
+      -webkit-transform: translateY(-22%);
+      -ms-transform: translateY(-22%);
+      transform: translateY(-22%);
+    }
+  
+    .card .phone,
+    .mail,
+    .address {
+      margin: 10px 0;
+    }
+  
+    .mail .mailSpan,
+    .generalInquiries img {
+      display: flex;
+    }
+  
+    .chat img {
+      width: 50px;
+    }
+  
+    .card .generalInquiries + p {
+      margin: 10px 0;
+    }
+  
+    .phone .avatar {
+      width: 7rem;
+      height: 7rem;
+    }
+  
+    .mailSpan.green_mail,
+    .card .mail .mailSpan {
+      position: relative;
+    }
+  
+    .card .mail img,
+    .mailSpan.green_mail img {
+      position: absolute;
+      top: 50% !important;
+      left: 50% !important;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  
+    .userPhoto {
+      width: 10rem;
+      height: 10rem;
+    }
+  
+    .profile {
+      margin: 0;
+    }
+  
+    .about {
+      margin-top: 40px;
+    }
+  
+    .chatNow-container {
+      margin: 0 -20px;
+    }
+  
+    .chatMessage {
+      margin: 10px 0;
+    }
+  
+    .message.sender,
+    .message.receiver {
+      padding: 8px 15px;
+    }
+  
+    .buttons .edit,
+    .buttons a {
+      margin: 0 5px;
+      height: 40px;
+    }
+  }
+  .chatHead {
+    border-top-left-radius: 20px;
+  }
+  
+  .chatSend {
+    border-bottom-left-radius: 20px;
+  }
+  
+  @media (min-width: 1441px) and (max-height: 1023px) {
+    p.z {
+      margin: 10px 0;
+    }
+  
+    .txIne {
+      font-size: 11px;
+    }
+  }
+  
+  .bar {
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .bar.firstCrd,
+  .bar.active.firstCrd,
+  .progress-statement {
+    width: 33.33% !important;
+  }
+  
+  .rounder {
+    cursor: pointer;
+  }
+  
