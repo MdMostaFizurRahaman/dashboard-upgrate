@@ -18091,8 +18091,8 @@ __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\dashboard-upgrate\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\dashboard-upgrate\src\scss\app.scss */"./src/scss/app.scss");
+__webpack_require__(/*! C:\Users\User\Desktop\Quick Access\dashboard-upgrading\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\User\Desktop\Quick Access\dashboard-upgrading\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })

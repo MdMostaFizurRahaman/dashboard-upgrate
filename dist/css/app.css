@@ -10130,6 +10130,7 @@ body .modal-backdrop {
   position: absolute;
   /* width: 200px; */
   width: 240px;
+  z-index: 10000;
 }
 
 .balances__wrapper li a {
@@ -10906,7 +10907,6 @@ table td.day {
 /* Responsive Media query */
 @media screen and (max-width: 952px) {
   .balances__menu_wrapper {
-    margin-left: 30px !important;
     padding: 7px 10px;
   }
 

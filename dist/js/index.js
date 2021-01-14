@@ -211,15 +211,16 @@ searchSwitch.style.color = "rgb(206,206,206)";
 function toggleSearch() {
   magnify.classList.toggle("active");
   if (magnify.classList.contains('active')) {
-    magnifyInput.style = `opacity: 1;`;
+    searchSwitch.style = `left:25px; color:#212121`;
+    magnifyInput.style = `opacity:1;`;
     magnify.style.background = "#cecece";
-    searchSwitch.style = `left: 25px; color: #212121`;
-    searchSwitch.src = `assets/images/png/magnifyActive.png`;
+    searchSwitch.src = `../../assets/images/png/magnifyActive.png`;
   } else {
-    magnifyInput.style = `opacity: 0;`
+    // searchSwitch.style = `transition: left 0s ease, right .3s ; color:#cecece`;
+    searchSwitch.style = `left: unset; transition: left 0s ease, right .3s ; color:#cecece`;
+    magnifyInput.style = `opacity:0;`;
     magnify.style.background = "#212121";
-    searchSwitch.style = `transition: left 0s ease, right .3s ; color:#cecece`;
-    searchSwitch.src = `assets/images/png/magnify.png`;
+    searchSwitch.src = `../../assets/images/png/magnify.png`;
   }
 }
 
